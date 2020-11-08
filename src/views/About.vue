@@ -4,13 +4,6 @@
   </div>
 </template>
 <script>
-import { useStore } from 'vuex';
-
 export default {
-  setup(){
-    const store = useStore();
-    const id = store.state.userId;
-    console.log(id);
-  }
 }
 </script>
